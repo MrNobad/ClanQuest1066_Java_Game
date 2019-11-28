@@ -10,22 +10,18 @@ public class WandTest {
 
     @Before
     public void before(){
-        wand = new Wand("Big One", 1, 10);
+        wand = new Wand("Big One", 1);
     }
 
     @Test
     public void hasName(){
-        assertEquals("Big One", wand.getName());
+        assertEquals("Big One", wand.getSpellName());
     }
 
     @Test
     public void hasDamage(){
-        assertEquals(1, wand.getDamage());
+        assertEquals(1, wand.getSpellDamage());
     }
 
-    @Test
-    public void hasSpellMultiplier(){
-        assertEquals(10, wand.getSpellMultiplier());
-    }
 
 }

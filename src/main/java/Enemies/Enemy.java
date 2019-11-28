@@ -45,7 +45,7 @@ public abstract class Enemy {
 
     public void attack(SpellCasters hero){
         if(!beast.isDead() && doesDamage(hero)){
-            beast.reduceHealth(getStrength());
+           beast.reduceHealth(getStrength());
         }
         else
             if(beast.isDead()) hero.decreaseHealth(getStrength());

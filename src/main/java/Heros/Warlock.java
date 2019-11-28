@@ -22,6 +22,5 @@ public class Warlock extends Hero implements IAttack, IMagic {
         enemy.reduceHealth(spellStrength);
     }
 
-    private Weapon getSpell() {
-    }
+
 }

@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42087231-c9be-4c1d-816c-92bd714306ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Beast/Beast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Enemies/Orc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Enemies/Troll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Heros/Behaviours/IMagic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Heros/SpellCasters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Heros/Warlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OrcTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TrollTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Enemies/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enemies/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/KnightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/KnightTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/KnightTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/KnightTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Heros/SpellCasters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Heros/SpellCasters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Heros/Warlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Heros/Warlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Weapons/Wand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Weapons/Wand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Enemies/Enemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Enemies/Enemy.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TrollTest">
+  <component name="RunManager" selected="JUnit.WandTest">
     <configuration name="OrcTest.canAttack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ClanQuest1066" />
       <option name="PACKAGE_NAME" value="" />
@@ -78,16 +72,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="OrcTest" />
       <option name="METHOD_NAME" value="canDealDamage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrcTest.isAlive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ClanQuest1066" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OrcTest" />
-      <option name="METHOD_NAME" value="isAlive" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,13 +96,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ClanQuest1066" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WandTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WandTest" />
         <item itemvalue="JUnit.TrollTest" />
         <item itemvalue="JUnit.OrcTest.canAttack" />
         <item itemvalue="JUnit.OrcTest.canDealDamage" />
         <item itemvalue="JUnit.OrcTest.isDead" />
-        <item itemvalue="JUnit.OrcTest.isAlive" />
       </list>
     </recent_temporary>
   </component>

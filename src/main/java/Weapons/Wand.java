@@ -1,15 +1,26 @@
 package Weapons;
 
-public class Wand extends Weapon{
+public class Wand{
 
-    private int spellMultiplier;
+//    private int spellMultiplier;
+    private String spellName;
+    private int spellDamage;
 
-    public Wand (String name, int damage, int spellMultiplier){
-         super(damage, name);
-         this.spellMultiplier = spellMultiplier;
+    public Wand (String spellName, int spellDamage){
+         this.spellDamage = spellDamage;
+         this.spellName = spellName;
+//         this.spellMultiplier = spellMultiplier;
     }
 
-    public int getSpellMultiplier() {
-        return this.spellMultiplier;
+    public String getSpellName(){
+        return this.spellName;
     }
+
+    public int getSpellDamage(){
+        return this.spellDamage;
+    }
+
+//    public int getSpellMultiplier() {
+//        return this.spellMultiplier;
+//    }
 }
