@@ -21,7 +21,7 @@ public class KnightTest {
         this.knight = new Knight("Reggie", weapon);
         this.item = new Item ("Armour", 20, 10);
 //        this.enemy = new Enemy() {
-        }
+//        }
     }
 
     @Test

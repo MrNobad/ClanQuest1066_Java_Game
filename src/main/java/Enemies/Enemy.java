@@ -1,15 +1,20 @@
 package Enemies;
 
+import Beast.Beast;
+import Heros.Behaviours.IAttack;
 import Heros.Hero;
+import Heros.SpellCasters;
 
 public abstract class Enemy {
 
     private int health;
     private int strength;
+    private Beast beast;
 
     public Enemy(int health, int strength){
         this.health = health;
         this.strength = strength;
+        this.beast = beast;
     }
 
     public int getStrength(){
@@ -32,10 +37,22 @@ public abstract class Enemy {
         return (getStrength() > hero.getItemDefence());
     }
 
-    public void attack(Hero hero){
-        if(doesDamage(hero)) {
-            hero.decreaseHealth(getStrength() - hero.getItemDefence());
+    public void attack(IAttack hero){
+        if(doesDamage((Hero) hero)) {
+            ((Hero) hero).decreaseHealth(getStrength() - ((Hero) hero).getItemDefence());
         }
     }
 
+    public void attack(SpellCasters hero){
+        if(!beast.isDead() && doesDamage(hero)){
+            beast.reduceHealth(getStrength());
+        }
+        else
+            if(beast.isDead()) hero.decreaseHealth(getStrength());
+    }
+
+//    public void attack(Hero hero){
+//        if(beast.getHealth() > getStrength());
+//        beast.reduceHealth(doesDamage(Beast beast));
+//    }
 }

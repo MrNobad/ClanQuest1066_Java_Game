@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42087231-c9be-4c1d-816c-92bd714306ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/KnightTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Beast/Beast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Enemies/Orc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Enemies/Troll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Heros/Behaviours/IMagic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Heros/SpellCasters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Heros/Warlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OrcTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TrollTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Heros/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Heros/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Heros/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Heros/Hero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enemies/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enemies/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/KnightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/KnightTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/KnightTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/KnightTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +45,11 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Heros" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -49,64 +62,63 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.KnightTest.knowIfDead">
-    <configuration name="KnightTest.canChangeWeapon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TrollTest">
+    <configuration name="OrcTest.canAttack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ClanQuest1066" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KnightTest" />
-      <option name="METHOD_NAME" value="canChangeWeapon" />
+      <option name="MAIN_CLASS_NAME" value="OrcTest" />
+      <option name="METHOD_NAME" value="canAttack" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnightTest.canGetItemDefence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrcTest.canDealDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ClanQuest1066" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KnightTest" />
-      <option name="METHOD_NAME" value="canGetItemDefence" />
+      <option name="MAIN_CLASS_NAME" value="OrcTest" />
+      <option name="METHOD_NAME" value="canDealDamage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnightTest.canGetItemStrength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrcTest.isAlive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ClanQuest1066" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KnightTest" />
-      <option name="METHOD_NAME" value="canGetItemStrength" />
+      <option name="MAIN_CLASS_NAME" value="OrcTest" />
+      <option name="METHOD_NAME" value="isAlive" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnightTest.knowIfAlive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrcTest.isDead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ClanQuest1066" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KnightTest" />
-      <option name="METHOD_NAME" value="knowIfAlive" />
+      <option name="MAIN_CLASS_NAME" value="OrcTest" />
+      <option name="METHOD_NAME" value="isDead" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnightTest.knowIfDead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TrollTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ClanQuest1066" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KnightTest" />
-      <option name="METHOD_NAME" value="knowIfDead" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="TrollTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.KnightTest.knowIfDead" />
-        <item itemvalue="JUnit.KnightTest.knowIfAlive" />
-        <item itemvalue="JUnit.KnightTest.canGetItemDefence" />
-        <item itemvalue="JUnit.KnightTest.canGetItemStrength" />
-        <item itemvalue="JUnit.KnightTest.canChangeWeapon" />
+        <item itemvalue="JUnit.TrollTest" />
+        <item itemvalue="JUnit.OrcTest.canAttack" />
+        <item itemvalue="JUnit.OrcTest.canDealDamage" />
+        <item itemvalue="JUnit.OrcTest.isDead" />
+        <item itemvalue="JUnit.OrcTest.isAlive" />
       </list>
     </recent_temporary>
   </component>
