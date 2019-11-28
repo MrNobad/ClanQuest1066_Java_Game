@@ -74,4 +74,8 @@ public abstract class Hero {
     public boolean isDead(){
         return this.health<= 0;
     }
+
+    public String getName(){
+        return this.name;
+    }
 }

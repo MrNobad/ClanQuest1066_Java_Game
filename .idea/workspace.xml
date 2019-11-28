@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42087231-c9be-4c1d-816c-92bd714306ee" name="Default Changelist" comment="" />
+    <list default="true" id="42087231-c9be-4c1d-816c-92bd714306ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/KnightTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Heros/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Heros/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Heros/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Heros/Hero.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +22,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -24,6 +33,10 @@
     </option>
   </component>
   <component name="ProjectId" id="1UEy2ZgxtlsuBSUiO77hmYAo02F" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -36,52 +49,52 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WandTest.hasSpellMultiplier">
-    <configuration name="WandTest.hasDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.KnightTest.knowIfDead">
+    <configuration name="KnightTest.canChangeWeapon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ClanQuest1066" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WandTest" />
-      <option name="METHOD_NAME" value="hasDamage" />
+      <option name="MAIN_CLASS_NAME" value="KnightTest" />
+      <option name="METHOD_NAME" value="canChangeWeapon" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WandTest.hasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KnightTest.canGetItemDefence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ClanQuest1066" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WandTest" />
-      <option name="METHOD_NAME" value="hasName" />
+      <option name="MAIN_CLASS_NAME" value="KnightTest" />
+      <option name="METHOD_NAME" value="canGetItemDefence" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WandTest.hasSpellMultiplier" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KnightTest.canGetItemStrength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ClanQuest1066" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WandTest" />
-      <option name="METHOD_NAME" value="hasSpellMultiplier" />
+      <option name="MAIN_CLASS_NAME" value="KnightTest" />
+      <option name="METHOD_NAME" value="canGetItemStrength" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeaponTest.canGetDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KnightTest.knowIfAlive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ClanQuest1066" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WeaponTest" />
-      <option name="METHOD_NAME" value="canGetDamage" />
+      <option name="MAIN_CLASS_NAME" value="KnightTest" />
+      <option name="METHOD_NAME" value="knowIfAlive" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeaponTest.hasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KnightTest.knowIfDead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ClanQuest1066" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WeaponTest" />
-      <option name="METHOD_NAME" value="hasName" />
+      <option name="MAIN_CLASS_NAME" value="KnightTest" />
+      <option name="METHOD_NAME" value="knowIfDead" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WandTest.hasSpellMultiplier" />
-        <item itemvalue="JUnit.WandTest.hasDamage" />
-        <item itemvalue="JUnit.WandTest.hasName" />
-        <item itemvalue="JUnit.WeaponTest.canGetDamage" />
-        <item itemvalue="JUnit.WeaponTest.hasName" />
+        <item itemvalue="JUnit.KnightTest.knowIfDead" />
+        <item itemvalue="JUnit.KnightTest.knowIfAlive" />
+        <item itemvalue="JUnit.KnightTest.canGetItemDefence" />
+        <item itemvalue="JUnit.KnightTest.canGetItemStrength" />
+        <item itemvalue="JUnit.KnightTest.canChangeWeapon" />
       </list>
     </recent_temporary>
   </component>
@@ -109,5 +122,16 @@
       <updated>1574935842325</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
